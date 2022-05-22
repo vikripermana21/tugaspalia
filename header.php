@@ -10,6 +10,10 @@
         <link rel="manifest" href="site.webmanifest">
         <link href="assets/img/logo/logo.png" rel="icon"> 
 
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+	    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.14.3/dist/xlsx.full.min.js"></script>
+	    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
+
 		<!-- CSS here -->
             <link rel="stylesheet" href="assets/css/bootstrap.min.css">
             <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
@@ -58,19 +62,18 @@
                                     <ul id="navigation">    
                                         <li><a href="index.php"> Home</a></li>
                                         <li><a href="about.php">About Us</a></li>
-                                        <li><a href="portofolio.php">Portofolio</a></li>
+                                        <li><a href="portofolio.php">Portofolio</a>
+                                        <ul class="submenu">
+                                                <li><a href="blog.html">Falia Davina</a></li>
+                                                <li><a href="single-blog.html">Helsa Alika</a></li>
+                                                <li><a href="blog.html">Mentari Alysia</a></li>
+                                                <li><a href="single-blog.html">Rafi Farhan</a></li>
+                                                <li><a href="blog.html">Rofa'ul Akrom</a></li>
+                                                <li><a href="single-blog.html">Yasmin Azizah</a></li>
+                                            </ul>
+                                        </li>
                                         <li><a href="contact.php">Contact</a></li>
-                                        <li><a href="tubes.php">TUBES</a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="single-blog.html">Blog Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Pages</a>
-                                            <ul class="submenu">
-                                                <li><a href="elements.html">Element</a></li>
-                                            </ul>
-                                        </li>
+                                        <li><a href="chart.php">Visualisasi Data</a></li>
                                     </ul>
                                 </nav>
                             </div>

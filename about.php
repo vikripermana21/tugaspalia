@@ -1,95 +1,4 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>SEO HTML-5 Template </title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="manifest" href="site.webmanifest">
-		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
-
-		<!-- CSS here -->
-            <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-            <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-            <link rel="stylesheet" href="assets/css/flaticon.css">
-            <link rel="stylesheet" href="assets/css/slicknav.css">
-            <link rel="stylesheet" href="assets/css/animate.min.css">
-            <link rel="stylesheet" href="assets/css/magnific-popup.css">
-            <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-            <link rel="stylesheet" href="assets/css/themify-icons.css">
-            <link rel="stylesheet" href="assets/css/slick.css">
-            <link rel="stylesheet" href="assets/css/nice-select.css">
-            <link rel="stylesheet" href="assets/css/style.css">
-            <link rel="stylesheet" href="assets/css/responsive.css">
-   </head>
-
-   <body>
-       
-    <!-- Preloader Start -->
-    <div id="preloader-active">
-        <div class="preloader d-flex align-items-center justify-content-center">
-            <div class="preloader-inner position-relative">
-                <div class="preloader-circle"></div>
-                <div class="preloader-img pere-text">
-                    <img src="assets/img/logo/logo.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Preloader Start -->
-    <header>
-        <!-- Header Start -->
-       <div class="header-area header-transparrent ">
-            <div class="main-header header-sticky">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <!-- Logo -->
-                        <div class="col-xl-2 col-lg-2 col-md-1">
-                            <div class="logo">
-                                <!--<a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>-->
-                            </div>
-                        </div>
-                        <div class="col-xl-8 col-lg-8 col-md-8">
-                            <!-- Main-menu -->
-                            <div class="main-menu f-right d-none d-lg-block">
-                                <nav> 
-                                    <ul id="navigation">    
-                                        <li><a href="index.html"> Home</a></li>
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="services.html">Services</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="blog.html">Blog</a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="single-blog.html">Blog Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Pages</a>
-                                            <ul class="submenu">
-                                                <li><a href="elements.html">Element</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>             
-                        <div class="col-xl-2 col-lg-2 col-md-3">
-                            <div class="header-right-btn f-right d-none d-lg-block">
-                                <a href="#" class="btn header-btn">Contact Us</a>
-                            </div>
-                        </div>
-                        <!-- Mobile Menu -->
-                        <div class="col-12">
-                            <div class="mobile_menu d-block d-lg-none"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-       </div>
-        <!-- Header End -->
-    </header>
+<?php include('header.php'); ?>
     <main>
         <!-- Slider Area Start-->
         <div class="slider-area">
@@ -99,16 +8,22 @@
                         <div class="row d-flex align-items-center">
                             <div class="col-lg-5 d-none d-xl-block">
                                 <div class="hero__img hero__img2 " data-animation="fadeInLeft" data-delay="1s">
-                                    <img src="assets/img/hero/about_hero.png" alt="">
+                                    <img src="assets/img/aboutus/Falia.png" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-7 col-md-9 ">
                                 <div class="hero__caption hero__caption2">
-                                    <h1 data-animation="fadeInRight" data-delay=".4s">We Collect<br> High Quality Leads</h1>
-                                    <p data-animation="fadeInRight" data-delay=".6s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravi.</p>
+                                    <h1 data-animation="fadeInRight" data-delay=".4s"> Vision and Mission </h1>
+                                    <p data-animation="fadeInRight" data-delay=".6s"> <b>Vision</b> <br> 
+                                    making B5 a CERMAT group (Cekatan, Empati, Responsif, Mandiri, Amanah, dan Terampil) <br>
+                                <b>Mission</b><br>
+                                1. Maintain good relations between members and members and members with teaching lecturers<br>
+                                2. Discuss to complete each task<br>
+                                3. Striving to always create creative and interesting works<br>
+                                4. The realization of cooperation by upholding sportsmanship</p>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn" data-animation="fadeInRight" data-delay=".8s">
-                                        <a href="industries.html" class="btn hero-btn">Contact Us</a>
+                                        <a href="contact.php" class="btn hero-btn">Contact Us</a>
                                     </div>
                                 </div>
                             </div>
@@ -130,7 +45,7 @@
                                     <p data-animation="fadeInRight" data-delay=".6s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravi.</p>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn" data-animation="fadeInRight" data-delay=".8s">
-                                        <a href="industries.html" class="btn hero-btn">Contact Us</a>
+                                        <a href="contact.php" class="btn hero-btn">Contact Us</a>
                                     </div>
                                 </div>
                             </div>
@@ -157,7 +72,7 @@
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-7">
                         <div class="section-tittle text-center">
-                            <h2>Choose Your Very Best Pricing Plan </h2>
+                            <h2>B5 Members </h2>
                         </div>
                     </div>
                 </div>
@@ -165,15 +80,17 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-choose text-center mb-30">
                             <div class="do-icon">
-                                <span  class="flaticon-growth"></span>
+                            <!-- <img src="assets/img/aboutus/profile.jpg" alt=""> -->
+                                <span  class="flaticon-award"></span>
                             </div>
                             <div class="do-caption">
-                                <h4>$ 05.00</h4>
+                                <h4>Falia</h4>
                                 <ul>
-                                    <li>Increase traffic 50%</li>
-                                    <li>Social Media Marketing</li>
-                                    <li>10 Free Optimization</li>
-                                    <li>24/7  support</li>
+                                    <li>Falia Davina Gustaman</li>
+                                    <li>211524041</li>
+                                    <li>D4 Informatics Engineering</li>
+                                    <li>Playing game, cooking and coding</li>
+                                    <li><p><i>"No matter how talented you are, on your own, you can't change the world."</i> <b> -Light Yagami</b></p></li>
                                 </ul>
                             </div>
                         </div>
@@ -181,15 +98,16 @@
                      <div class="col-lg-4 col-md-6">
                         <div class="single-choose active text-center mb-30">
                             <div class="do-icon">
-                                <span  class="flaticon-award"></span>
+                                <span  class="flaticon-project"></span>
                             </div>
                             <div class="do-caption">
-                                <h4>$ 20.00</h4>
+                                <h4>Helsa</h4>
                                 <ul>
-                                    <li>Increase traffic 50%</li>
-                                    <li>Social Media Marketing</li>
-                                    <li>10 Free Optimization</li>
-                                    <li>24/7  support</li>
+                                    <li>Helsa Alika Femiani</li>
+                                    <li>211524044</li>
+                                    <li>D4 Informatics Engineering</li>
+                                    <li>Listening music, playing guitar, programming</li>
+                                    <li><p><i>“Girls should never be afraid to be smart.”</i><b> -Emma Watson</b></p></li>
                                 </ul>
                             </div>
                         </div>
@@ -197,15 +115,67 @@
                      <div class="col-lg-4 col-md-6">
                         <div class="single-choose text-center mb-30">
                             <div class="do-icon">
+                                <span  class="flaticon-award"></span>
+                            </div>
+                            <div class="do-caption">
+                                <h4>Mentari</h4>
+                                <ul>
+                                    <li>Mentari Ayu Alysia Sudrajat</li>
+                                    <li>211524047</li>
+                                    <li>D4 Informatics Engineering</li>
+                                    <li>Learn programming languages</li>
+                                    <li><p><i>“Successful people don't fear failure but understand that it's necessary to learn and grow from."</i><b> -Robert Kiyosaki</b></p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-choose text-center mb-30">
+                            <div class="do-icon">
                                 <span  class="flaticon-project"></span>
                             </div>
                             <div class="do-caption">
-                                <h4>$ 30.00</h4>
+                                <h4>Rafi</h4>
                                 <ul>
-                                    <li>Increase traffic 50%</li>
-                                    <li>Social Media Marketing</li>
-                                    <li>10 Free Optimization</li>
-                                    <li>24/7  support</li>
+                                    <li>Muhammad Rafi Farhan</li>
+                                    <li>211524051</li>
+                                    <li>D4 Informatics Engineering</li>
+                                    <li>Drawing and reading novels and comics</li>
+                                    <li><p><i>“You Have The Freedom To Defend The World's Freedom And I Have The Freedom To Continue Moving Forward.”</i><b> -The Founder</b></p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-choose text-center mb-30">
+                            <div class="do-icon">
+                                <span  class="flaticon-award"></span>
+                            </div>
+                            <div class="do-caption">
+                            <h4>Rofa'ul</h4>
+                                <ul>
+                                    <li>Rofa'ul Akrom Hendrawan</li>
+                                    <li>211524061</li>
+                                    <li>D4 Informatics Engineering</li>
+                                    <li>Sleeping, playing games, sing a song</li>
+                                    <li><p><i>"Tekad,Ucap,Lampah"</i><b> -Tri tangtu</b></p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-choose text-center mb-30">
+                            <div class="do-icon">
+                                <span  class="flaticon-project"></span>
+                            </div>
+                            <div class="do-caption">
+                                <h4>Yasmin</h4>
+                                <ul>
+                                    <li>Yasmin Azizah Ruhfah</li>
+                                    <li>211524064</li>
+                                    <li>D4 Informatics Engineering</li>
+                                    <li>Programming</li>
+                                    <li><p><i>"Be a spring that gives life to the surroundings."</i><b> -BJ Habiebie</b></p></li>
                                 </ul>
                             </div>
                         </div>
@@ -221,54 +191,76 @@
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-6 pr-0">
                         <div class="section-tittle text-center">
-                            <h2>Visit Some Of Our Awsome Stuffs</h2>
+                            <h2>Get To Know Us Closer</h2>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="container-fluid p-0">
                 <div class="row ">
-                    <div class="col-lg-3 col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="single-visited mb-30">
                             <div class="visited-img">
-                                <img src="assets/img/visit/visit_1.jpg" alt="">
+                                <img src="assets/img/aboutus/Falia.jpg" alt="">
                             </div>
                             <div class="visited-cap">
-                                <h3><a href="#">citmv.com</a></h3>
-                                <p>Email Marketing</p>
+                                <h3><a href="https://faliadavina.github.io/">Falia</a></h3>
+                                <p>Programmer and Documentation</p>
                             </div>
                         </div>
                     </div> 
-                     <div class="col-lg-3 col-md-4">
+                     <div class="col-lg-4 col-md-6">
                         <div class="single-visited mb-30">
                             <div class="visited-img">
-                                <img src="assets/img/visit/visit_2.jpg" alt="">
+                                <img src="assets/img/aboutus/helsa3.jpg" alt="">
                             </div>
                             <div class="visited-cap">
-                                <h3><a href="#">mvsp.net</a></h3>
-                                <p>Email Marketing</p>
+                                <h3><a href="https://helsaalika.github.io/">Helsa</a></h3>
+                                <p>Designer and Programmer</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="single-visited mb-30">
                             <div class="visited-img">
-                                <img src="assets/img/visit/visit_3.jpg" alt="">
+                                <img src="assets/img/aboutus/Falia.jpg" alt="">
                             </div>
                             <div class="visited-cap">
-                                <h3><a href="#">dmcal.co</a></h3>
-                                <p>Email Marketing</p>
+                                <h3><a href="https://mentarialysias.github.io/">Mentari</a></h3>
+                                <p>Documentation dan Tester</p>
                             </div>
                         </div>
                     </div> 
-                    <div class="col-lg-3 col-md-4">
-                        <div class="single-visited mb-30">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-visited mb-60">
                             <div class="visited-img">
-                                <img src="assets/img/visit/visit_4.jpg" alt="">
+                                <img src="assets/img/aboutus/raf.png" alt="">
                             </div>
                             <div class="visited-cap">
-                                <h3><a href="#">dmco.net</a></h3>
-                                <p>Email Marketing</p>
+                                <h3><a href="#">Rafi</a></h3>
+                                <p>Analyst dan Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-visited mb-30">
+                            <div class="visited-img">
+                                <img src="assets/img/aboutus/faul.jpg" alt="">
+                            </div>
+                            <div class="visited-cap">
+                                <h3><a href="https://rofaul061.github.io/">Rofa'ul</a></h3>
+                                <p>Designer dan Tester</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-visited mb-30">
+                            <div class="visited-img">
+                                <img src="assets/img/aboutus/helsa1.jpeg" alt="">
+                            </div>
+                            <div class="visited-cap">
+                                <h3><a href="https://yasmintuhfah.github.io/ytuhfah.github.io/">Yasmin</a></h3>
+                                <p>Leader dan Analyst</p>
                             </div>
                         </div>
                     </div>
@@ -386,7 +378,7 @@
         </div>
         <!-- Tips Triks End -->
          <!-- have-project Start-->
-         <div class="have-project">
+         <!-- <div class="have-project">
             <div class="container">
                 <div class="haveAproject"  data-background="assets/img/team/have.jpg">
                     <div class="row d-flex align-items-center">
@@ -405,21 +397,21 @@
                 </div>
                 
             </div>
-        </div>
+        </div> -->
         <!-- have-project End -->
 
     </main>
    <footer>
 
        <!-- Footer Start-->
-      <div class="footer-main" data-background="assets/img/shape/footer_bg.png">
+      <!-- <div class="footer-main" data-background="assets/img/shape/footer_bg.png">
         <div class="footer-area footer-padding">
             <div class="container">
                 <div class="row d-flex justify-content-between">
                     <div class="col-lg-3 col-md-4 col-sm-8">
                        <div class="single-footer-caption mb-50">
                          <div class="single-footer-caption mb-30">
-                              <!-- logo -->
+                               logo
                              <div class="footer-logo">
                                  <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
                              </div>
@@ -482,7 +474,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- footer-bottom aera -->
         <div class="footer-bottom-area footer-bg">
             <div class="container">
