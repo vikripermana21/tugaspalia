@@ -58,23 +58,24 @@
                         <div class="col-xl-8 col-lg-8 col-md-8">
                             <!-- Main-menu -->
                             <div class="main-menu f-right d-none d-lg-block">
-                                <nav> 
+                            <nav> 
                                     <ul id="navigation">    
-                                        <li><a href="index.html"> Home</a></li>
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="services.html">Services</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="blog.html">Blog</a>
+                                        <li><a href="index.php"> Home</a></li>
+                                        <li><a href="about.php">About Us</a></li>
+                                        <li><a href="portofolio.php">Portofolio</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
+                                        <li><a href="tubes.php">TUBES</a>
                                             <ul class="submenu">
                                                 <li><a href="blog.html">Blog</a></li>
                                                 <li><a href="single-blog.html">Blog Details</a></li>
                                             </ul>
                                         </li>
+                                        <!--
                                         <li><a href="#">Pages</a>
                                             <ul class="submenu">
                                                 <li><a href="elements.html">Element</a></li>
                                             </ul>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </nav>
                             </div>
@@ -95,9 +96,64 @@
         <!-- Header End -->
     </header>
     <main>
-        
+        <br><br><br>
+        <br>
+        <h2><p><center>Visualisasi Data</center></p></h2>
+            
+        <div class="container">
+        <h4><p><center>Jumlah Peserta per Tahun</center></p></h4>
+            <canvas id="myChart" width="" height="125"> </canvas><br><br>
+        </div>
 
-        <canvas id="myChart"> </canvas>
+        <div class="container">
+        <h4><p><center>Jumlah Peserta Terbanyak</center></p></h4>
+            <canvas id="myChart2" width="" height="125"> </canvas><br><br>
+        </div>
+
+        <div class="container">
+        <h4><p><center>Perusahaan yang Sering Menang per Tahun</center></p></h4>
+            <canvas id="myChart3" width="" height="125"> </canvas><br><br>
+        </div>
+        
+        <div class="container">
+        <h4><p><center>Jumlah Tender Selesai</center></p></h4>
+            <canvas id="myChart4" width="" height="125"> </canvas><br><br>
+        </div>
+
+        <div class="container">
+        <h4><p><center>Jumlah Tender Batal</center></p></h4>
+            <canvas id="myChart5" width="" height="125"> </canvas><br><br>
+        </div>
+
+        <div class="container">
+        <h4><p><center>Nilai Pagu Terbesar</center></p></h4>
+            <canvas id="myChart6" width="" height="125"> </canvas><br><br>
+        </div>
+
+        <div class="container">
+        <h4><p><center>Nilai Pagu Terkecil</center></p></h4>
+            <canvas id="myChart7" width="" height="125"> </canvas><br><br>
+        </div>
+
+        <div class="container">
+        <h4><p><center>Nilai HPS Terbesar</center></p></h4>
+            <canvas id="myChart8" width="" height="125"> </canvas><br><br>
+        </div>
+
+        <div class="container">
+        <h4><p><center>Nilai Selisih Pagu dan HPS Terbesar</center></p></h4>
+            <canvas id="myChart9" width="" height="125"> </canvas><br><br>
+        </div>
+
+        <div class="container">
+        <h4><p><center>Perusahaan yang Sering Ikut Tender per Tahun</center></p></h4>
+            <canvas id="myChart10" width="" height="125"> </canvas><br><br>
+        </div>
+
+        <div class="container">
+        <h4><p><center>Harga Penawaran Tertinggi</center></p></h4>
+            <canvas id="myChart11" width="" height="125"> </canvas><br><br>
+        </div>
 
     </main>
    <footer>
@@ -163,30 +219,7 @@
         <script src="./assets/js/plugins.js"></script>
         <script src="./assets/js/main.js"></script>
 
-        <script>
-            var ctx = document.getElementById('myChart');
-            var chart = new Chart(ctx, {
-                type: 'bar',
-                plugins: [ChartDataSource],
-                options: {
-                    title : {
-                        display : true,
-                        fontsize:30,
-                        text: 'Data '
-
-                    },
-                    plugins :{
-                        datasource: {
-                            url: 'assets/xlsx/b5.xlsx',
-                            datasetLabels: "'Jumlah Peserta'!C3",
-                            indexLabels: "'Jumlah Peserta'!B4:B8",
-                            data: "'Jumlah Peserta'!C4:C8"
-                        }
-                    }
-                    
-                }
-            });
-        </script>
+        <script src="assets/js/chart.js"></script>
         
     </body>
 </html>
